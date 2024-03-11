@@ -153,7 +153,9 @@ st.write(
     """
 )
 
-with st.expander("Pertanyaan 1"):
+with st.expander(
+    "Bagaimana performa penjualan masing-masing produk dan kategori produk pada periode 2016-2018?"
+):
     st.write(
         """
         ### Bagaimana performa penjualan masing-masing produk dan kategori produk pada periode 2016-2018?
